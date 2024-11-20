@@ -13,19 +13,35 @@ function addProblem(req,res,next){
 }
 
 function getProblem(req,res){
-
+    try {
+        throw new NotImplemented('addProblem');
+    } catch (error) {
+        next(error);
+    }
 }
 
 function getProblems(req,res){
-
+    try {
+        throw new NotImplemented('addProblem');
+    } catch (error) {
+        next(error);
+    }
 }
 
 function deleteProblem(req,res){
-
+    try {
+        throw new NotImplemented('addProblem');
+    } catch (error) {
+        next(error);
+    }
 }
 
 function updateProblem(req,res){
-
+    try {
+        throw new NotImplemented('addProblem');
+    } catch (error) {
+        next(error);
+    }
 }
 
 module.exports = {
