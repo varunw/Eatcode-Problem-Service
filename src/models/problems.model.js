@@ -5,7 +5,7 @@ const problemSchema = new mongoose.Schema({
         type:String,
         required:[true,'Title cannot be empty']
     },
-    desciption:{
+    description:{
         type:String,
         required:[true,'Description cannot be empty']
     },
